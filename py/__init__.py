@@ -13,4 +13,4 @@ def _load_input():
 
 def load_input_lines():
     with open(_load_input()) as file:
-        return list(filter(None, (line.rstrip("\n") for line in file)))
+        return list(filter(None, map(str.rstrip, file)))
