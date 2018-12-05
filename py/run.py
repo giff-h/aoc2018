@@ -4,9 +4,11 @@ from py import (
     day2,
     day3,
     day4,
+    day5,
 )
 
 day1.run()
 day2.run()
 day3.run()
 day4.run()
+day5.run()
