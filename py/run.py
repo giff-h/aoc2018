@@ -6,6 +6,7 @@ from py import (
     day4,
     day5,
     day6,
+    day7,
     day8,
 )
 
@@ -15,4 +16,5 @@ day3.run()
 day4.run()
 day5.run()
 day6.run()
+day7.run()
 day8.run()
