@@ -46,7 +46,7 @@ def part2(puzzle_input):
 
 
 def run():
-    day2 = load_input_lines()
+    today = load_input_lines()
 
     test = [
         "[1518-11-01 00:00] Guard #10 begins shift",
@@ -70,11 +70,11 @@ def run():
 
     assert part1(test) == 240
 
-    print(f"Day 4 part 1: {part1(day2)}")
+    print(f"Day 4 part 1: {part1(today)}")
 
     assert part2(test) == 4455
 
-    print(f"Day 4 part 2: {part2(day2)}")
+    print(f"Day 4 part 2: {part2(today)}")
 
 
 if __name__ == "__main__":

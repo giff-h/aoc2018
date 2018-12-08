@@ -46,7 +46,7 @@ def part2(puzzle_input):
 
 
 def run():
-    day2 = load_input_lines()
+    today = load_input_lines()
 
     test = [
         "#1 @ 1,3: 4x4",
@@ -56,11 +56,11 @@ def run():
 
     assert part1(test) == 4
 
-    print(f"Day 3 part 1: {part1(day2)}")
+    print(f"Day 3 part 1: {part1(today)}")
 
     assert part2(test) == {3}
 
-    print(f"Day 3 part 2: {part2(day2)}")
+    print(f"Day 3 part 2: {part2(today)}")
 
 
 if __name__ == "__main__":

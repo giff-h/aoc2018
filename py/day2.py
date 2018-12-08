@@ -27,7 +27,7 @@ def part2(puzzle_input):
 
 
 def run():
-    day2 = load_input_lines()
+    today = load_input_lines()
 
     assert part1([
         "abcdef",
@@ -39,7 +39,7 @@ def run():
         "ababab",
     ]) == 12
 
-    print(f"Day 2 part 1: {part1(day2)}")
+    print(f"Day 2 part 1: {part1(today)}")
 
     assert part2([
         "abcde",
@@ -51,7 +51,7 @@ def run():
         "wvxyz",
     ]) == "fgij"
 
-    print(f"Day 2 part 2: {part2(day2)}")
+    print(f"Day 2 part 2: {part2(today)}")
 
 
 if __name__ == "__main__":

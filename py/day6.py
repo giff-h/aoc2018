@@ -82,7 +82,7 @@ def part2(puzzle_input, limit):
 
 
 def run():
-    day2 = load_input_lines()
+    today = load_input_lines()
 
     test = [
         "1, 1",
@@ -95,11 +95,11 @@ def run():
 
     assert part1(test) == 17
 
-    print(f"Day 6 part 1: {part1(day2)}")
+    print(f"Day 6 part 1: {part1(today)}")
 
     assert part2(test, 32) == 16
 
-    print(f"Day 6 part 2: {part2(day2, 10000)}")
+    print(f"Day 6 part 2: {part2(today, 10000)}")
 
 
 if __name__ == "__main__":

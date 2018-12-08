@@ -17,17 +17,17 @@ def part2(puzzle_input):
 
 
 def run():
-    day2 = load_input_raw()
+    today = load_input_raw()
 
     test = "dabAcCaCBAcCcaDA"
 
     assert part1(test) == 10
 
-    print(f"Day 5 part 1: {part1(day2)}")
+    print(f"Day 5 part 1: {part1(today)}")
 
     assert part2(test) == 4
 
-    print(f"Day 5 part 2: {part2(day2)}")
+    print(f"Day 5 part 2: {part2(today)}")
 
 
 if __name__ == "__main__":
