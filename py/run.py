@@ -13,6 +13,7 @@ from py import (
     day11,
     day12,
     day13,
+    day14,
 )
 
 day1.run()
@@ -28,3 +29,4 @@ day10.run()
 day11.run()
 day12.run()
 day13.run()
+day14.run()
